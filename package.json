@@ -1,0 +1,35 @@
+{
+  "name": "punch",
+  "version": "1.0.2",
+  "description": "the most basic of time trackers",
+  "main": "index.js",
+  "bin": {
+    "punch": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/F1LT3R/punch.git"
+  },
+  "keywords": [
+    "time",
+    "tracker",
+    "punch",
+    "node",
+    "npm"
+  ],
+  "author": "Alistair MacDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/F1LT3R/punch/issues"
+  },
+  "homepage": "https://github.com/F1LT3R/punch#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "cloudant": "^1.4.1",
+    "commander": "^2.9.0",
+    "open": "0.0.5"
+  }
+}
